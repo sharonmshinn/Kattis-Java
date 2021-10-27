@@ -12,5 +12,6 @@ public class aDifferentProblem {
 			long difference = Math.abs(firstNum - secondNum);
 			System.out.println(difference);
 		}
+		scanner.close();
   }
 }
