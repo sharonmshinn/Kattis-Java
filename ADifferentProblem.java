@@ -1,5 +1,4 @@
-//Each line of the input consists of a pair of integers. Each integer is between 0 and 1015 (inclusive). The input is terminated by end of file.
-//For each pair of integers in the input, output one line, containing the absolute value of their difference.
+//https://open.kattis.com/problems/different
 
 import java.util.Scanner; 
 
