@@ -21,5 +21,6 @@ public class Bijele {
 			piecesToFix[i] = validSet[i] - compareSet[i];
 			System.out.print(piecesToFix[i] + " ");
 		}
+		scanner.close();
 	}
 }
