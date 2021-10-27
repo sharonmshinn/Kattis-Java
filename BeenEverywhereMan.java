@@ -34,5 +34,6 @@ public class BeenEverywhereMan {
 		for(int s=0; s<cases; s++) {
 			System.out.println(output[s]);
 		}
+		scanner.close();
 	}
 }
