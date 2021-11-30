@@ -1,14 +1,19 @@
+//https://open.kattis.com/problems/missingnumbers
+
 import java.util.Scanner;
 
 public class MissingNum {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
+		//first input is the number of numbers that we will input, must be in order
 		int number = scanner.nextInt();
 		int[] array = new int[number];
 		
+		//inputing n numbers 
 		for(int i=0; i<number; i++) {
 			array[i] = scanner.nextInt();
 		}
+		
 		
 		if(array[number-1] - number != 0) {
 			String output = "";
@@ -30,17 +35,12 @@ public class MissingNum {
 			}
 		}else {
 			System.out.println("good job");
+			}
+
+		
 		}
-		
-		
-		
-		
-		
-		
+		scanner.close();
 
-		
 	}
-
-}
 
 }
